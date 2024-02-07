@@ -1,5 +1,17 @@
 {
   "dependencies": {
     "firebase": "^10.7.1"
-  }
+  },
+  "name": "tiryaki-hukuk-web-project",
+  "description": "KONECT Software Solutions - Tiryaki Hukuk Web Project Repository",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ebrar",
+  "license": "ISC"
 }

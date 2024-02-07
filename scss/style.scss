@@ -1,13 +1,13 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-$font-primary: 'Poppins',Arial, sans-serif;
+$font-primary: 'Roboto',Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
 // $darken: #3a4348;
 
-$primary: #afa939;
+$primary: #321414 ;
 $secondary: #2c2f3a;
 
 
@@ -359,13 +359,12 @@ h1, h2, h3, h4, h5,
 			font-size: 40px;
 		}
 		span{
-			color: $primary;
+			color: $white;
 		}
 	}
 	.subheading{
 		font-size: 15px;
-		color: rgba(255,255,255,.7);
-		color: $primary;
+		color: $white;
 		text-transform: uppercase;
 		font-family: $font-primary;
 		font-weight: 800;
@@ -764,11 +763,15 @@ h1, h2, h3, h4, h5,
 				color: $white;
 			}
 		}
-		.btn-custom{
+		/* .btn-custom{
 			opacity: 1;
 			bottom: -25px;
 		}
+		*/
+
+
 	}
+	
 }
 
 //CASE STUDIES
@@ -1003,7 +1006,7 @@ textarea.form-control {
 		a{
 			color: $white;
 			span{
-				color: $primary;
+				color: $white;
 				font-size: 16px !important;
 				
 				display: block;
@@ -1027,9 +1030,9 @@ textarea.form-control {
 						color: $white;
 					}
 					&:hover{
-						color: $primary;
+						color: $white;
 						span{
-							color: $primary;
+							color: $white;
 						}
 					}
 				}
@@ -1061,7 +1064,7 @@ textarea.form-control {
 	}
 	.opening-hours{
 		h4{
-			color: $primary;
+			color: $white;
 			font-size: 16px;
 		}
 		p{
@@ -1199,7 +1202,7 @@ textarea.form-control {
 		display: block;
 		margin-bottom: 5px;
 		font-weight: 700;
-		color: $primary;
+		color: $white;
 	}
 	h2{
 		font-size: 30px;
