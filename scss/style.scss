@@ -7,7 +7,7 @@ $white: #fff;
 $black: #000000;
 // $darken: #3a4348;
 
-$primary: #321414 ;
+$primary: #563d2d ;
 $secondary: #2c2f3a;
 
 
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5,
 				color: $white;
 				font-weight: 400;
 				&:hover {
-					color: $primary;
+					color: $white;
 				}
 				opacity: 1!important;
 				@include media-breakpoint-down(md){
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5,
 			}
 			&.active {
 				> a {
-					color: $primary;
+					color: $white;
 				}
 			}
 		}
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5,
 				width: 5px;
 				height: 100%;
 				content: '';
-				background: $primary;
+				background: $secondary;
 
 				text-decoration: blink;
 				-webkit-animation-name: blinker;
@@ -628,6 +628,7 @@ h1, h2, h3, h4, h5,
 	.tab-content{
 		background: $white;
 		padding: 20px;
+		height: 12rem;
 		border: 1px solid rgba(0,0,0,.05);
 	}
 }
@@ -730,7 +731,7 @@ h1, h2, h3, h4, h5,
 		@include border-radius(50%);
 		span{
 			font-size: 50px;
-			color: $primary;
+			color: $secondary;
 			@include transition(.3s);
 		}
 	}
@@ -758,7 +759,7 @@ h1, h2, h3, h4, h5,
 	}
 	&:hover,&:focus{
 		.icon{
-			background: $primary;
+			background: $secondary;
 			span{
 				color: $white;
 			}
